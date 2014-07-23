@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CalCalc - your personal health calculator</title>
+<!-- meta tags start -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="Keywords" content="" />
+<meta name="Description" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+<!-- meta tags end -->
+
+<!-- favorite icon starts -->
+<!--<link rel="shortcut icon" href="images/common/favicon.ico" type="image/x-icon" />-->
+<!-- favorite icon ends -->
+
+<!-- Google fonts start -->
+<link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css' />
+<!-- Google fonts end -->
+
+<!-- CSS files start -->
+<link href="css/framework.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/colorbox.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/elements.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/responsive.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="css/hidpi.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="css/skin.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/custom.css" rel="stylesheet" type="text/css" media="all" />
+<!-- CSS files end -->
+
+<!-- JavaScript files start -->
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/effects.jquery-ui.min.js"></script>
+<script type="text/javascript" src="js/jquery.nivo-slider.min.js"></script>
+<script type="text/javascript" src="js/jquery.colorbox.min.js"></script>
+<script type="text/javascript" src="js/custom.js"></script>
+
+<script type="text/javascript" src="js/loadIngredient.js"></script>
+
+<!-- JavaScript files end -->
+</head>
+<body>
+<!-- website wrapper starts -->
+<div class="websiteWrapper" id="firstIngredientRes"> 
+  
+  <!-- main menu wrapper starts -->
+  <ul class="mainMenuWrapper">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="signIn.html">Sign in</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="contact.html">Contact US</a></li>
+    <li><a href="tip.html">Today's healthy TIP</a> </li>
+    <li><a href="faq.html">FAQ Page</a></li>      
+  </ul>
+  <!-- main menu wrapper ends --> 
+  
+  <!-- header wrapper starts -->
+  <div class="headerOuterWrapper">
+    <div class="headerWrapper"> <a href="" class="mainMenuButton"><span>Menu</span></a></div>
+  </div>
+  <!-- header wrapper ends --> 
+  
+  <!-- page wrapper starts -->
+  <div class="pageWrapper portfolioOnePageWrapper"> 
+    
+    <!-- portfolio wrapper starts -->
+    <div class="portfolioOneWrapper"> 
+      <!-- portfolio item starts  -->
+      <div class="portfolioOneItemWrapper"> <a href="resultsNutritionExpand.html" class="portfolioOneItemImageWrapper"><img id="mainImage" src="images/common/landingLogo.png" alt=""/></a>
+        <div class="portfolioOneItemInfoWrapper">
+            <h1 class="portfolioOneItemTitle"><var id="ingredientname"></var></h1>
+
+            <table>
+        <thead>
+          <tr>
+            <th>Ingredient</th>
+            <th>Amount</th>
+            <th>Units</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Calories</td>
+            <td><var id="calories"></var></td>
+            <td>cal</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td>Total fat</td>
+            <td><var id="fat"></var></td>
+            <td>g</td>
+          </tr><tr>
+            <td>Cholesterol</td>
+            <td><var id="cholesterol"></var></td>
+            <td>mg</td>
+          </tr>
+          <tr>
+              <td>Sodium</td>
+              <td><var id="sodium"></var></td>
+              <td>mg</td>
+          </tr>
+          <tr>
+              <td>Potassium</td>
+              <td><var id="potassium"></var></td>
+              <td>mg</td>
+          </tr>
+          <tr>
+              <td>Carbohydrate</td>
+              <td><var id="carbohydrate"></var></td>
+              <td>g</td>
+          </tr>
+          <tr>
+              <td>Protein</td>
+              <td><var id="protein"></var></td>
+              <td>g</td>
+          </tr>
+          
+        </tbody>
+      </table>
+        </div>
+          <form action="resultsMeals.html" method="get">
+              <div class="portfolioOneItemButtonsWrapper">
+                  <a id ='suggest_button' href="resultsMeals.html?ingredient=tomato" class="singleProjectDetailsButton">Suggest meals</a>
+              </div>
+<!--                  <input name="ingredient" type="text" value="" class="searchBarField" id="searchBarField"/>-->
+          </form>
+          
+        
+      </div>
+      <!-- portfolio item ends --> 
+      
+    </div>
+    <!-- portfolio wrapper ends --> 
+    
+  </div>
+  <!-- page wrapper ends --> 
+  
+  <!-- page numbers start -->
+<!--  <div class="pageNumbersWrapper"> <span class="pageNumber currentPageNumber">1</span> <a href="" class="pageNumber">2</a> <a href="" class="pageNumber">3</a><span class="pageNumber">...</span> <a href="" class="pageNumber">&laquo;</a> <a href="" class="pageNumber">&raquo;</a> </div>-->
+  <!-- page numbers end --> 
+  
+  <!-- footer wrapper starts -->
+</div>
+<!-- website wrapper ends -->
+</body>
+</html>
